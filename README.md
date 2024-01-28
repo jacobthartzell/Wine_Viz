@@ -16,6 +16,7 @@ wine_personal1 python file is data in its original form that has been cleaned an
 
 **Data Visualization**
 Wine_Viz.twb is the tableau workbook associated. 
+https://public.tableau.com/app/profile/jacob.hartzell8425/viz/Wine_Viz/HomePage 
 
 **Next Steps**
 The ultimate goal is to utilize wine regions and create maps in Tableau. I would love to map different regions that can be displayed per country and shown via value. 
