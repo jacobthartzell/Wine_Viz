@@ -4,6 +4,7 @@ Visualization of wine from Wine Enthusiast ratings
 **Main Goal**
 Understand which styles of wine and which regions have higher ratings, prices, and value.
 Value is defined, in this case, as a balance between a high rating and a low price. 
+Currently, the information is exclusively descriptive statistics. The goal is to update soon with more as free time comes and goes. 
 The audience for this project is consumers: essentially, it is designed to be a tool to help a consumer make a decision when buying a bottle of wine. 
 
 **Data Source**
