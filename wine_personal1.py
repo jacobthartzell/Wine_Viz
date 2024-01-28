@@ -32,11 +32,6 @@ from statsmodels.stats.outliers_influence import OLSInfluence
 #Load in datasets and concat different 
 
 formal = pd.read_csv(r'/Users/jhartzel1/Documents/Documents/IAA_Masters_of_Analytics/Side_Project/Formalized_Wine_Ratings/wine_2.csv')
-casual_red = pd.read_csv(r'/Users/jhartzel1/Documents/Documents/IAA_Masters_of_Analytics/Side_Project/Data_of_Vivino/Red.csv')
-casual_rose = pd.read_csv(r'/Users/jhartzel1/Documents/Documents/IAA_Masters_of_Analytics/Side_Project/Data_of_Vivino/Rose.csv')
-casual_spark = pd.read_csv(r'/Users/jhartzel1/Documents/Documents/IAA_Masters_of_Analytics/Side_Project/Data_of_Vivino/Sparkling.csv')
-casual_white = pd.read_csv(r'/Users/jhartzel1/Documents/Documents/IAA_Masters_of_Analytics/Side_Project/Data_of_Vivino/White.csv')
-casual = pd.concat([casual_red, casual_rose, casual_spark, casual_white])
 
 
 #Clean data
