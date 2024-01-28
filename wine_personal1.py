@@ -207,8 +207,6 @@ plt.pie(country_count, labels = country_count.index, autopct='%1.1f%%', startang
 formal_no_na.loc[formal_no_na['country'] == 'New York, US', 'state'] = 'New York'
 formal_no_na['country'] = formal_no_na['country'].str.replace('New York, US', 'US')
 
-#Check state, region as well to see if there are any mistakes
-
 
 #Save formal_no_na as csv file
 #formal_no_na.to_csv('/Users/jhartzel1/Documents/Documents/IAA_Masters_of_Analytics/Side_Project/formal_no_na.csv', index = False)
